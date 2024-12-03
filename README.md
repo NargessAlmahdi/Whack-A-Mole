@@ -11,7 +11,7 @@ _A sense of nostalgia for the well known aracade game "WHACK-A-MOLE" Players rec
 
 ### Play the Game
 
-[Deployed Game Link](https://nayaba.github.io/spaceman/)
+[Deployed Game Link](https://nargessalmahdi.github.io/Whack-A-Mole/)
 
 ### How to Play
 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/app.js"></script>
+    <title>Whack-A-Mole</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+</style>
+</head>
+<body>
+
+
+<div class="container">
+
+    
+    <img class="arcadegame" src="images/arcadegame.png" alt="whackamole">
+    
+        <h2 id="score"> SCORE: 0 </h2>
+        <button class="startButton">START</button>
+        <h2 id="hiscore">HI-SCORE: 0 </h2>
+        
+        <div class="countdown"> 3 </div>
+        <div class="countdown2"> 00:00 </div>
+        
+        
+        <section id="board">
+            <div class="hole" id="1"></div>
+            <div class="hole" id="2"></div>
+            <div class="hole" id="3"></div>
+            <div class="hole" id="4"></div>
+            <div class="hole" id="5"></div>
+            <div class="hole" id="6"></div>
+        </section>
+        
+        <button class="restartButton">RESTART</button>
+        <div id="message" style="display: none;"></div>
+        <button id="openModal">?</button>
+        
+        <button id="music">
+            <img id="music-icon" src="images/mute-icon.png" alt="music-icon" width="25" height="auto"/>
+        </button>
+
+        
+    </div>
+    
+    
+    
+
+    <div class="modal" id="modal">
+        <div class="modal-inner">
+            <div class="title">
+            <h2>HOW TO PLAY</h2>
+            <button id="closeModal">x</button>
+        </div>
+            <ol>
+            <li>Click “START” to begin</li>
+            <li>You have 30 seconds to hit the moles</li>
+            <li>Each mole you hit earns you 10 points</li>
+            <li>Try to set the new high score! </li>
+
+            </ol>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
